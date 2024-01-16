@@ -1,24 +1,24 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "dragon-rotation",
   "version": "${version}",
-  "name": "",
+  "name": "Dragon Rotation",
   "description": "",
   "authors": [
     "tildejustin"
   ],
   "contact": {
-    "homepage": "https://modrinth.com/mod/modid",
-    "sources": "https://github.com/tildejustin/modid",
-    "issues": "https://github.com/tildejustin/modid/issues"
+    "homepage": "https://github.com/tildejustin/dragon-rotation",
+    "sources": "https://github.com/tildejustin/dragon-rotation",
+    "issues": "https://github.com/tildejustin/dragon-rotation/issues"
   },
   "license": "MIT",
   "environment": "*",
   "mixins": [
-    "modid.mixins.json"
+    "dragon-rotation.mixins.json"
   ],
   "depends": {
     "minecraft": "*",
-    "fabricloader": ">=0.15.0"
+    "fabricloader": "*"
   }
 }
